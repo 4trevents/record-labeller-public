@@ -1,15 +1,22 @@
 # Record Labeller
 
-A personal vinyl cataloguing and label-printing app. It imports a Discogs
-collection export, enriches each release with tracklist, speed, BPM and
-key data, and designs custom printable labels for physical records.
+Personal project I am working on - record-labeller app, because the one that my friends use is iOS only!
+
+App functions:
+- scan a record via img upload or take a photo from the app
+- import record collection from Discogs
+- match it to Discogs API and pull extended info: tracklist, duration, style
+- match it to your Rekordbox library export and find the best possible track matches to pull BPM and Key
+
+WIP for tracks that need further lookup:
+- use getsongbpm API to pull matching BPM and Key
+- other ways to add, such as scan barcode or input catalogue num or discogs ID
 
 See [SPEC.md](./SPEC.md) for the full design spec.
 
 This is a public snapshot of an actively-developed personal project — the
 real collection data lives in a separate private repo and is never
-published here. It exists partly to give a couple of API providers a
-working public backlink per their attribution/signup requirements.
+published here.
 
 ## Stack
 
